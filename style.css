@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    background-image: url(image/7.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: auto;
+}
+
+.navbar .navbar-brand{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: Audiowide;
+}
+#navBarMenu ul li a:hover{
+    color: white;
+    transition: 1s;
+}
+.navcontent_one{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.navcontent_two{
+    text-align: center;
+    margin:0 50px;
+    color: white;
+    font-size: 50px;
+}
+.navcontent_two p{
+    -moz-animation: marquee 10s linear infinite;
+      -webkit-animation: marquee 10s linear infinite;
+      animation: marquee 10s linear infinite;
+      
+}
+@-moz-keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+    }
+    @-webkit-keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+    }
+    @keyframes marquee {
+    0% { 
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%) }
+    100% { 
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%); }
+    }
+    .navcontent_two p:hover {
+        animation-play-state: paused;
+      }
+.navcontent_three{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.navcontent_four{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.navcontent_four button{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.navcontent_four button:hover{
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.about-me{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+.education .child-one{
+    text-align: center;
+    margin-top: 60px;
+}
+.education .child-two{
+    margin-top: 30px;
+}
+.education .child-two .card{
+    height: 200px;
+    width: auto;
+    padding: 20px;
+    border-left: 2px solid blueviolet;
+}
+.education .child-two .card{
+    filter: grayscale(50%);
+    transition: 1s;
+}
+.education .child-two .card:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    background-color: 	 #D3D3D3 ;
+}
+.work .child-one{
+    text-align: center;
+    margin-top: 100px;
+}
+.work .child-three{
+    text-align: center;
+    margin-top: 40px;
+}
+.work .child-two{
+    margin-top: 50px;
+}
+.work .child-two img{
+    filter: grayscale(50%);
+    transition: 1s;
+}
+.work .child-two img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.contact{
+    margin-top: 60px;
+}
+.contact .child-one{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact .child-two .left{
+    text-align: center;
+}
+.footer .jumbo{
+    margin-top: 100px;
+    height: auto;
+}
